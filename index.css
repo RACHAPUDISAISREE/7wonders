@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    width: 90%;
+    margin-left : 20px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading h1{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin:10px;
+    margin-top: 50px;
+}
+h1{
+    color: white;
+    font-family: cursive;
+    font-size:20px ;
+}
+.three,.three-one,.three-three,.one,.two,.three-two,.three-four{
+    margin-right: 10px;
+    margin-left: 5px;
+    height: max-content;
+  
+}
+a{
+    text-decoration: none;
+}
+p{
+    width: 20px;
+    color: white;
+}
+.one:hover,.three:hover,.three:hover,.three-one:hover,.three-three:hover,.one:hover,.two:hover,.three-two:hover,.three-four:hover{
+   
+    border: 2px solid white;
+    width: 400px;
+    p{
+        width: fit-content;
+    };
+    img{
+        width: 300px;
+    };
+  
+    box-shadow: rgba(224, 221, 221, 0.25) 0px 54px 55px, rgba(244, 241, 241, 0.12) 0px -12px 30px, rgba(240, 237, 237, 0.12) 0px 4px 6px, rgba(230, 226, 226, 0.17) 0px 12px 13px, rgba(227, 225, 225, 0.09) 0px -3px 5px;
+ 
+}
